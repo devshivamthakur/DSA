@@ -1,8 +1,4 @@
 
-
-from urllib3 import Retry
-
-
 class Node:
     
     def __init__(self,data):
@@ -34,6 +30,15 @@ class LinkedList:
             temp_=temp_.next
         print(alldata)
         return
+    def  get_all_from_data(node):
+        alldata=""
+        temp_=node
+        while temp_:
+            alldata+=str(temp_.data)+"---->"
+            temp_=temp_.next
+        print(alldata)
+        return
+    
     def delete_(self,value):
         temp_=self.head
         if value==temp_.data:
