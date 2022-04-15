@@ -30,27 +30,38 @@ class MergedLinkedlist:
                 l1.insert(list.data)
         list=list.next      
      return l1   
-     
+
+ def find_intersected(self,list1,list2):
+     while list1:
+         temp=list2
+         while temp:  
+             if temp.data==list1.data:
+                 return temp.data
+             temp=temp.next
+         list1=list1.next     
+     return None                  
 
 
-l1=LinkedList()
-l1.insert(12)       
-l1.insert(13)       
-l1.insert(14)      
+# l1=LinkedList()
+# l1.insert(12)       
+# l1.insert(13)       
+# l1.insert(14)      
 
-l2=LinkedList()
+# l2=LinkedList()
 
-l2.insert(12)
-l2.insert(13)
-l2.insert(15)
+# l2.insert(10)
+# l2.insert(11)
+# l2.insert(15)
 
-merge_instance=MergedLinkedlist()
-temp=merge_instance.merge_linkedlist(l1.head,l2.head)
-print(LinkedList.get_all_from_data(temp))
+# merge_instance=MergedLinkedlist()
 
-temp1=merge_instance.remove_duplicate(temp)
+# print(merge_instance.find_intersected(l1.head,l2.head))
+# temp=merge_instance.merge_linkedlist(l1.head,l2.head)
+# print(LinkedList.get_all_from_data(temp))
 
-print(LinkedList.get_all_from_data(temp1.head))
+# temp1=merge_instance.remove_duplicate(temp)
+
+# print(LinkedList.get_all_from_data(temp1.head))
 
 
 

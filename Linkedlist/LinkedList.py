@@ -17,6 +17,7 @@ class LinkedList:
             itr=itr.next
         itr.next=node
         return
+    
     def insert_at_beginning(self,data):
         node=Node(data)
         head_copy=self.head
@@ -30,7 +31,7 @@ class LinkedList:
             temp_=temp_.next
         print(alldata)
         return
-    def  get_all_from_data(node):
+    def get_all_from_data(node):
         alldata=""
         temp_=node
         while temp_:
