@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Median_of_Two_Sorted_Arrays",
+            "request": "launch",
+            "mainClass": "problems.Median_of_Two_Sorted_Arrays",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longest_Substring_Without_Repeating_Characters",
+            "request": "launch",
+            "mainClass": "problems.Longest_Substring_Without_Repeating_Characters",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch find_all_duplicate_array",
+            "request": "launch",
+            "mainClass": "problems.find_all_duplicate_array",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "DSA_e28a2a61"
+        }
+    ]
+}
