@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Zigzagconvertion",
+            "request": "launch",
+            "mainClass": "problems.Zigzagconvertion",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longest_Palindromic_Substring",
+            "request": "launch",
+            "mainClass": "problems.Longest_Palindromic_Substring",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
             "name": "Launch Median_of_Two_Sorted_Arrays",
             "request": "launch",
             "mainClass": "problems.Median_of_Two_Sorted_Arrays",
