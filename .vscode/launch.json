@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch atoi",
+            "request": "launch",
+            "mainClass": "problems.atoi",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse_Integer",
+            "request": "launch",
+            "mainClass": "problems.Reverse_Integer",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Remove_Duplicates_from_SortedArray",
+            "request": "launch",
+            "mainClass": "problems.Remove_Duplicates_from_SortedArray",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Paranthasis_balenced",
+            "request": "launch",
+            "mainClass": "problems.Paranthasis_balenced",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Roman_to_integer",
+            "request": "launch",
+            "mainClass": "problems.Roman_to_integer",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
             "name": "Launch Zigzagconvertion",
             "request": "launch",
             "mainClass": "problems.Zigzagconvertion",
