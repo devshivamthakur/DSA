@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IntersectionofTwoArraysII",
+            "request": "launch",
+            "mainClass": "problems.IntersectionofTwoArraysII",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch besttimetobuystokII",
+            "request": "launch",
+            "mainClass": "problems.besttimetobuystokII",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch _Regular_Expression_Matching",
+            "request": "launch",
+            "mainClass": "problems._Regular_Expression_Matching",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
             "name": "Launch atoi",
             "request": "launch",
             "mainClass": "problems.atoi",

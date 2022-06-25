@@ -1,29 +1,26 @@
 package problems;
 import java.util.*;
-public class twosum {
-    public static void main(String[] args) {
-        int arr[]={2,7,11,15};
-        int target=9;
-        int[] ans=twoSum(arr, target);
-        System.out.println(ans[0]+" "+ans[1]);
-
-    }
-    static int [] twoSum(int arr[],int target){
-        int ans[]=new int[2];
-        HashMap<Integer,Integer>map=new HashMap<>();
-        for(int i=0;i<arr.length;i++){
-            if(map.containsKey(arr[i])){
-                ans[0]=map.get(arr[i]);
-                ans[1]=i;
-                return ans;
-            }
-            else{
-                map.put(target-arr[i],i);
-            }
-        }
-       
-        return ans;
-
-    }
+class Solution {
     
+    public int[] plusOne(int[] digits) {
+        String s = "";
+        for(int i=0; i<digits.length; i++){
+            s+=Integer.toString(digits[i]);
+            
+        }
+        int n=Integer.parseInt(s)+1;
+        s=Integer.toString(n); //124
+        int[] a = new int[s.l];
+        for(int i=0; i<s.length; i++){
+            a[i]=Integer.parseInt(s.charAt(i));
+        }
+        return a;
+        
+        
+        
+        
+        
+        
+        
+    }
 }
