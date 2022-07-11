@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindPeak",
+            "request": "launch",
+            "mainClass": "FindPeak",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch searchinsortedArrays",
+            "request": "launch",
+            "mainClass": "searchinsortedArrays",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "problems.SearchInsertPosition",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleofLinkedList",
+            "request": "launch",
+            "mainClass": "problems.MiddleofLinkedList",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedlist",
+            "request": "launch",
+            "mainClass": "problems.ReverseLinkedlist",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
             "name": "Launch IntersectionofTwoArraysII",
             "request": "launch",
             "mainClass": "problems.IntersectionofTwoArraysII",
