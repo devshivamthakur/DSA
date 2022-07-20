@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountNumberofNiceSubarrays",
+            "request": "launch",
+            "mainClass": "CountNumberofNiceSubarrays",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindallAnagraminstring",
+            "request": "launch",
+            "mainClass": "FindallAnagraminstring",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
             "name": "Launch FindPeak",
             "request": "launch",
             "mainClass": "FindPeak",
