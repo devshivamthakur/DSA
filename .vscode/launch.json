@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EverySubarraySum",
+            "request": "launch",
+            "mainClass": "problems.EverySubarraySum",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
             "name": "Launch CountNumberofNiceSubarrays",
             "request": "launch",
             "mainClass": "CountNumberofNiceSubarrays",

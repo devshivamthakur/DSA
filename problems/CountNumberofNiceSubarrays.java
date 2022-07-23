@@ -10,6 +10,10 @@ public class CountNumberofNiceSubarrays {
         System.out.println(c.numberOfSubarrays(nums,k));
 
     }
+    public static void name() {
+        // numberof
+        
+    }
     public int numberOfSubarrays(int[] nums, int k) {
         for(int i=0;i<nums.length;i++){
             if(nums[i]%2!=0){
