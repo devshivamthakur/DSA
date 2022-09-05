@@ -6,6 +6,202 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test3",
+            "request": "launch",
+            "mainClass": "problems.Test3",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch JAva1",
+            "request": "launch",
+            "mainClass": "problems.JAva1",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecodeString",
+            "request": "launch",
+            "mainClass": "problems.DecodeString",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Virtuasa",
+            "request": "launch",
+            "mainClass": "problems.Virtuasa",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gfg1",
+            "request": "launch",
+            "mainClass": "Gfg1",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyCdoe",
+            "request": "launch",
+            "mainClass": "MyCdoe",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution4",
+            "request": "launch",
+            "mainClass": "Solution4",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution3",
+            "request": "launch",
+            "mainClass": "Solution3",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution2",
+            "request": "launch",
+            "mainClass": "Solution2",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumofTwo",
+            "request": "launch",
+            "mainClass": "SumofTwo",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinStack",
+            "request": "launch",
+            "mainClass": "MinStack",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1",
+            "request": "launch",
+            "mainClass": "Solution1",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count",
+            "request": "launch",
+            "mainClass": "Count",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gama",
+            "request": "launch",
+            "mainClass": "Gama",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Setbits",
+            "request": "launch",
+            "mainClass": "Setbits",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Queue",
+            "request": "launch",
+            "mainClass": "Queue",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stackquestion",
+            "request": "launch",
+            "mainClass": "Stackquestion",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchgeneric",
+            "request": "launch",
+            "mainClass": "BinarySearchgeneric",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinerSearchGeneric",
+            "request": "launch",
+            "mainClass": "LinerSearchGeneric",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSortGeneric",
+            "request": "launch",
+            "mainClass": "InsertionSortGeneric",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort1",
+            "request": "launch",
+            "mainClass": "BubbleSort1",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "problems.GFG",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsermainCode",
+            "request": "launch",
+            "mainClass": "problems.UsermainCode",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxConsecutiveOnesIII",
+            "request": "launch",
+            "mainClass": "problems.MaxConsecutiveOnesIII",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test_",
+            "request": "launch",
+            "mainClass": "problems.Test_",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
+            "name": "Launch BackSpacestringcompares",
+            "request": "launch",
+            "mainClass": "problems.BackSpacestringcompares",
+            "projectName": "DSA_e28a2a61"
+        },
+        {
+            "type": "java",
             "name": "Launch Stringpermutaion",
             "request": "launch",
             "mainClass": "problems.Stringpermutaion",

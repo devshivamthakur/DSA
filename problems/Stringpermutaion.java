@@ -4,7 +4,7 @@ public class Stringpermutaion {
     public static void main(String[] args) {
         String s="abcd";
         int arr[]={2,4,3,1};
-        System.out.println(stringstringpermutation(s, arr)); //dacb
+        System.out.println(stringstringpermutation(s, arr)); //dacbBac
 
     }
     public static String stringstringpermutation(String s,int arr[]) {

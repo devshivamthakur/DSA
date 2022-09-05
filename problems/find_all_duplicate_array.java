@@ -8,6 +8,11 @@ public static void main(String[] args) {
     
     int arr[]={4,3,2,7,8,2,3,1};
     System.out.println(get_duplicate_element(arr));
+    String s = "abc";
+        String p = "cba";
+        HashMap<Character, Integer> substring = new HashMap<>();
+        HashMap<Character, Integer> substr = new HashMap<>();
+       
 }
 static List<Integer> get_duplicate_element(int arr[]){
     List<Integer>ans=new ArrayList<>();
