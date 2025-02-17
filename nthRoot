@@ -1,0 +1,44 @@
+//Find nth root of m
+// User function Template for javascript
+
+/**
+ * @param {number} n
+ * @param {number} m
+ * @return {number}
+ */
+class Solution {
+    cache={}
+    
+    getNum(n, mid){
+    if(this.cache[`${n}${mid}`]){
+        return this.cache[`${n}${mid}`]
+    }
+    let ans = 1;
+    for(let i=0; i<n; i++){
+        ans = ans * mid
+    }
+    this.cache[`${n}${mid}`] = ans
+    return ans;
+    }
+    nthRoot(n, m) {
+        if(n == 1) return m;
+        
+        // code here
+        let start = 1, end = Math.floor(m/2);
+        let mid = Math.floor(start + (end-start) / 2)
+        
+        while(start<=end){
+            const op = this.getNum(n, mid)
+            if(op === m){
+                return mid;
+            }else if(op > m){
+                end = mid -1 ;
+            }else{
+                start = mid + 1;
+            }
+            mid = Math.floor(start + (end-start) / 2)
+        }
+        
+        return - 1;
+    }
+}
